@@ -1,0 +1,23 @@
+* {
+  margin: center;
+ 
+  grid-template-columns: auto auto;
+  padding: 10px 12px;
+  row-gap: 0;
+}
+.card-title{
+  font-weight: bold;
+
+}
+.weather-text{
+  display: flex;
+}
+.card{
+  background-color: rgba(0, 0, 255, 0.536);
+  color: white;
+  align-items: center;
+  display: center;
+  content: icon;
+  font-weight: bold;
+  font-size: 16px;
+}
