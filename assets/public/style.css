@@ -1,6 +1,5 @@
 * {
   margin: center;
- 
   grid-template-columns: auto auto;
   padding: 10px 12px;
   row-gap: 0;
@@ -20,4 +19,30 @@
   content: icon;
   font-weight: bold;
   font-size: 16px;
+}
+#srchbtn{
+  background-color: rgba(0, 0, 255, 0.51);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  width: 10vh;
+}
+.daily-details-grid-item {
+  align-items: center;
+  display: flex;
+  height: 10px;
+  justify-content: space-between;
+}
+.container{
+  background-color:rgba(199, 125, 6, 0.264);
+  color: black;
+  display: center;
+  align-items: center;
+  lighting-color: rgba(180, 120, 30, 0.847);
+}
+.btn{
+background-color:rgba(0, 0, 255, 0.597);
+color: white;
+font-size: 15px;
+font-weight: bold;
+padding-block: 5px;
 }
