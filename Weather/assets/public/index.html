@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Weather </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" href="style.css">
+      <script src="http://127.0.0.1:5501/assets/public/index.html" integrity="sha384-IYxOP1ummDTx84G2LKbDyapC16wvqPD1geKu2+7YxhKlBIqzjfgLnbmHUDWl6xbr" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/public/style.css" />
+    <script src="/assets/public/script.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <header class="container">
+        <h1>OpenWeatherMap Calendar</h1>
+      </header>
+
+      <div class="container">
+        <div class="row align-items-center py-2">
+          <div class="input-group">
+            <p class="input-group" id="srchbtn">Lat</p>
+            <input type="text"
+            value=""
+            aria-describedby="srchbtn" 
+            aria-label="latitude"    
+            placeholder="latitude"
+            class="form-control"
+            id="latitude"
+            inputmode="numeric"/></div>
+            <div class="input-group col-sm">
+              <span class="input-group" id="srchbtn">Lon</span>
+              <input type="text" value=""
+              aria-describedby="srchbtn" 
+              aria-label="longitude"    
+              placeholder="longitude"
+              class="form-control"
+              id="longitude"
+              inputmode="numeric"/></div>
+            <div class="row align-items-center py-2">
+              <div class="col me">
+                <!-- search buttons-->
+              <button id="btnGet" type="button" class="btn">Get Weather</button>
+              <button id="btnCurrent" type="button" class="btn">Current Location<button>
+              </div>
+            </div>
+           </nav>
+    
+            <main class="container">
+             <h2> Weather </h2>
+              <!-- weather results after search -->
+             <div class="weather row">
+              <div class="col">
+                <div class="card" style="width: fit-content">
+                  <h4 class="card-title">Date</h4>
+                  <img src="http://openweathermap.org/img/wn/10d@2x.png"
+                    class="headIcon"
+                    alt="Weather description"/>
+                
+                  <div class="main-card">
+                    <h3 class="card-title">Weather Label</h3>
+                    <p class="weather-text">Wind Speed:</p>
+                    <p class="weather-text">Humidty:</p>
+                    <p class="weather-text">High Feels like:</p>
+                    <p class="weather-text">Temp:</p>
+                    <p class="weather-text">UV Index:</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </body>
+    </html>	
